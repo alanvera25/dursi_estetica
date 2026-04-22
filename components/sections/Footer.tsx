@@ -16,7 +16,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1440px] px-6 pb-10 pt-24 lg:px-10 lg:pt-32">
         <div className="grid grid-cols-12 gap-6 lg:gap-10">
           <div className="col-span-12 lg:col-span-6">
-            <Logo className="text-bone" variant="stacked" />
+            <Logo className="text-bone" variant="stacked" onDark />
             <p className="mt-10 max-w-sm text-sm leading-relaxed text-bone/70">
               {t('tagline')}
             </p>

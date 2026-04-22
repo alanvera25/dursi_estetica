@@ -24,12 +24,12 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-[100svh] overflow-hidden bg-sage pt-24 lg:pt-28"
+      className="relative min-h-[100svh] overflow-hidden bg-sage pt-16 lg:pt-28"
     >
       <GrainTexture opacity={0.09} />
 
       {/* decorative rules */}
-      <div className="pointer-events-none absolute inset-x-0 top-24 z-0 flex items-center justify-between px-6 lg:px-10">
+      <div className="pointer-events-none absolute inset-x-0 top-16 z-0 flex items-center justify-between px-6 lg:top-20 lg:px-10">
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
@@ -41,32 +41,12 @@ export function Hero() {
       <div className="relative z-10 mx-auto grid min-h-[calc(100svh-10rem)] max-w-[1440px] grid-cols-12 gap-6 px-6 lg:gap-10 lg:px-10">
         {/* column: eyebrow + isotype */}
         <div className="col-span-12 flex flex-col justify-between lg:col-span-5">
-          <motion.p
-            {...fade(0.2)}
-            className="smallcaps text-ink/70"
-          >
-            {t('eyebrow')}
-          </motion.p>
-
-          <div className="relative my-10 flex items-end lg:my-0 lg:flex-1">
+          <div className="relative flex items-center py-4 lg:py-0 lg:flex-1">
             <Isotype
               animate
-              className="h-[clamp(7rem,14vw,12rem)] w-auto"
+              className="w-full max-h-full"
               strokeWidth={5}
             />
-            <motion.div
-              initial={{ opacity: 0, x: -8 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 2.4, duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-              className="ml-6 mb-3 flex flex-col"
-            >
-              <span className="num-chip text-xs tracking-[0.3em] text-ink/50">
-                EST. 2024
-              </span>
-              <span className="mt-1 font-display text-sm italic text-ink/60">
-                {site.handle}
-              </span>
-            </motion.div>
           </div>
 
           <motion.div
@@ -83,7 +63,7 @@ export function Hero() {
 
         {/* column: display headline */}
         <div className="col-span-12 flex flex-col justify-center lg:col-span-7">
-          <h1 className="font-display text-[clamp(2.4rem,6vw,5.5rem)] font-light leading-[0.95] tracking-[-0.02em] text-ink">
+          <h1 className="font-display text-[clamp(2.4rem,16vw,5.5rem)] font-light leading-[0.95] tracking-[-0.02em] text-ink">
             <motion.span {...fade(0.4)} className="block">
               {t('titleA')}
             </motion.span>
