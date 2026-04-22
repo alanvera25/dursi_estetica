@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "philosophy": "Filosofía",
+    "treatments": "Tratamientos",
+    "about": "Nosotras",
+    "space": "Espacio",
+    "contact": "Contacto",
+    "book": "Reservar turno"
+  },
+  "hero": {
+    "eyebrow": "Medicina estética · Buenos Aires",
+    "titleA": "Belleza",
+    "titleB": "consciente,",
+    "titleC": "resultados",
+    "titleD": "reales",
+    "subtitle": "Un espacio donde la medicina estética, la nutrición y los hábitos saludables trabajan en conjunto — para que sentirte bien se refleje en cómo te ves.",
+    "cta1": "Reservar consulta",
+    "cta2": "Ver tratamientos",
+    "scroll": "Desplazá"
+  },
+  "philosophy": {
+    "eyebrow": "Manifiesto",
+    "heading": "No se trata solo de verse bien.",
+    "italicAccent": "se trata",
+    "rest": "de sentirse bien — y sostenerlo en el tiempo.",
+    "body": "Trabajamos de manera personalizada, escuchando y adaptando cada tratamiento a lo que cada persona realmente necesita. Sin expectativas poco reales. Con criterio, empatía y una mirada completa del bienestar.",
+    "pillars": {
+      "p1Title": "Consciente",
+      "p1Body": "Cada decisión contempla tu historia, tu piel y tus objetivos — no modas pasajeras.",
+      "p2Title": "Integral",
+      "p2Body": "Medicina estética + nutrición + hábitos. Los resultados duran cuando todo se alinea.",
+      "p3Title": "Natural",
+      "p3Body": "Intervenciones seguras que realzan sin borrar lo que te hace única."
+    }
+  },
+  "treatments": {
+    "eyebrow": "Tratamientos",
+    "heading": "Protocolos faciales",
+    "headingAccent": "a medida",
+    "subheading": "Veinticuatro procedimientos organizados en cuatro caminos complementarios. Cada plan se diseña en la consulta inicial, según diagnóstico.",
+    "groups": {
+      "faciales": "Faciales",
+      "capilar": "Capilar",
+      "corporales": "Corporales",
+      "consultas": "Consultas"
+    },
+    "askInfo": "Consultar",
+    "items": {
+      "limpieza": {
+        "name": "Limpieza facial profunda",
+        "short": "Higiene profesional que renueva textura y luminosidad.",
+        "long": "Limpieza higienizante con extracción, exfoliación y máscara calmante. Recomendada mensualmente para mantener una piel equilibrada."
+      },
+      "limpieza-alquimia": {
+        "name": "Limpieza facial profunda con alquimia",
+        "short": "Ritual higienizante potenciado con cosmética de alto rendimiento.",
+        "long": "Combina limpieza profunda con activos de laboratorio Alquimia: vitamina C, ácidos suaves y sueros peptídicos. Piel preparada, nutrida y luminosa."
+      },
+      "peeling": {
+        "name": "Peeling",
+        "short": "Renovación celular controlada con ácidos médicos.",
+        "long": "Aplicación de ácidos que aceleran el recambio celular y tratan manchas, textura irregular, poros dilatados y signos de envejecimiento."
+      },
+      "radiofrecuencia": {
+        "name": "Radiofrecuencia",
+        "short": "Estimula colágeno y tensa piel sin intervenir.",
+        "long": "Emisión de ondas electromagnéticas que calientan la dermis profunda, estimulan colágeno y mejoran firmeza sin downtime."
+      },
+      "fraxface": {
+        "name": "Fraxface",
+        "short": "Microperforación para renovar la piel desde adentro.",
+        "long": "Tratamiento fraccional que genera microcanales para estimular regeneración profunda. Ideal para cicatrices, poros, textura y luminosidad."
+      },
+      "hifu-facial": {
+        "name": "HIFU 2.5D 360 Max con Liposonix",
+        "short": "Lifting facial sin cirugía por ultrasonido focalizado.",
+        "long": "Ultrasonido de alta intensidad enfocado que trabaja distintas profundidades. Tensa, redefine contorno facial y trata papada. Equivale al lifting quirúrgico sin corte."
+      },
+      "prp": {
+        "name": "Plasma rico en plaquetas",
+        "short": "Tu propia sangre como activo regenerador.",
+        "long": "Extracción y centrifugación de sangre para aplicar factores de crecimiento plaquetarios. Regenera, revitaliza y mejora calidad de piel."
+      },
+      "meso-facial": {
+        "name": "Mesoterapia facial",
+        "short": "Micro-infiltración de activos que devuelven luz y firmeza.",
+        "long": "Cóctel de vitaminas, ácido hialurónico y antioxidantes aplicado en microdosis intradérmicas. Hidrata, ilumina y mejora calidad de piel."
+      },
+      "meso-ojeras": {
+        "name": "Mesoterapia ojeras",
+        "short": "Tratamiento específico para el contorno ocular.",
+        "long": "Activos seleccionados para pigmentación y bolsas del contorno ocular. Aclara, descongestiona y refresca la mirada."
+      },
+      "skinbooster": {
+        "name": "Skinbooster",
+        "short": "Hidratación profunda de larga duración.",
+        "long": "Ácido hialurónico no reticulado que recupera hidratación, densidad y elasticidad. Resultados sostenidos por 6 meses."
+      },
+      "botox": {
+        "name": "Botox",
+        "short": "Suavizar líneas de expresión con naturalidad.",
+        "long": "Toxina botulínica aplicada con dosis individualizada — frente, entrecejo, patas de gallo. Resultados naturales que preservan expresividad."
+      },
+      "relleno": {
+        "name": "Relleno con ácido hialurónico",
+        "short": "Recuperar volumen sin cambiar tu identidad.",
+        "long": "Rellenos de ácido hialurónico para labios, pómulos, mentón, surcos y ojeras. Diseño facial personalizado con resultado natural."
+      },
+      "radiesse": {
+        "name": "Bioestimuladores (Radiesse)",
+        "short": "Estimular tu colágeno desde adentro.",
+        "long": "Hidroxiapatita de calcio que genera producción endógena de colágeno. Mejora firmeza, densidad y calidad de piel progresivamente."
+      },
+      "prp-capilar": {
+        "name": "Plasma rico en plaquetas capilar",
+        "short": "Regeneración del cuero cabelludo con factores propios.",
+        "long": "Extracción y centrifugación de sangre para aplicar factores de crecimiento plaquetarios en el cuero cabelludo. Estimula folículos, frena caída y fortalece el cabello."
+      },
+      "meso-capilar": {
+        "name": "Mesoterapia capilar",
+        "short": "Micro-infiltración de activos para nutrir el folículo.",
+        "long": "Cóctel de vitaminas, minerales y aminoácidos aplicado en microdosis en el cuero cabelludo. Revitaliza el bulbo, mejora densidad y calidad capilar."
+      },
+      "criolipolisis": {
+        "name": "Criolipólisis",
+        "short": "Reducción localizada de grasa por frío controlado.",
+        "long": "Aplicación de frío sostenido que cristaliza adipocitos en zonas específicas. El organismo los elimina de forma natural en las semanas siguientes. Ideal para abdomen, flancos, espalda y muslos."
+      },
+      "body-up": {
+        "name": "Body Up",
+        "short": "Tonificación corporal con electro-estimulación.",
+        "long": "Estimulación muscular profunda que reafirma, activa circulación y mejora tono corporal. Complementa planes de reducción y remodelación."
+      },
+      "peptonas": {
+        "name": "Peptonas",
+        "short": "Reducción y remodelación con péptidos de colágeno.",
+        "long": "Micro-infiltración de peptonas que rompen el tejido adiposo localizado y estimulan la remodelación corporal. Apto para brazos, abdomen, flancos y piernas."
+      },
+      "meso-celulitis": {
+        "name": "Mesoterapia celulitis",
+        "short": "Ataque directo al tejido afectado por celulitis.",
+        "long": "Micro-infiltración de activos específicos que mejoran circulación, drenan líquidos y atacan nódulos adiposos. Protocolo seriado para resultados visibles."
+      },
+      "enzimas-lipoliticas": {
+        "name": "Enzimas lipolíticas",
+        "short": "Disolución enzimática de grasa localizada.",
+        "long": "Aplicación de enzimas que descomponen las células adiposas en zonas específicas. Reducción medible en pocas sesiones."
+      },
+      "hifu-corporal": {
+        "name": "HIFU 2.5D 360 Max con Liposonix corporal",
+        "short": "Tensado y remodelación corporal por ultrasonido.",
+        "long": "Ultrasonido focalizado aplicado a zonas corporales — abdomen, brazos, piernas, glúteos. Tensa, redefine contornos y reduce adiposidad localizada."
+      },
+      "depilacion": {
+        "name": "Depilación definitiva",
+        "short": "Láser de última generación, todas las zonas.",
+        "long": "Depilación láser progresiva que elimina el vello de forma definitiva. Protocolo personalizado según tipo de piel, fototipo y zona a tratar."
+      },
+      "consulta-medica": {
+        "name": "Consulta médico-estética",
+        "short": "Diagnóstico personalizado y plan de tratamiento.",
+        "long": "Entrevista en profundidad, evaluación cutánea y definición del plan estético integral. Punto de partida para todo tratamiento — sin compromiso."
+      },
+      "nutricion": {
+        "name": "Consulta de nutrición",
+        "short": "Acompañamiento nutricional que sostiene los resultados.",
+        "long": "Plan alimentario personalizado que complementa el recorrido estético. Hábitos sostenibles para que los resultados se mantengan en el tiempo."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Nosotras",
+    "heading": "Dos hermanas,",
+    "headingAccent": "un mismo recorrido.",
+    "intro": "D’Ursi Estética nació desde un lugar muy personal: la idea de abordar la belleza de forma real, consciente e integral. Somos Estefanía y Vanina — cada una con su camino, pero con la misma forma de entender el bienestar.",
+    "vaninaBio": "Médica especializada en medicina estética. Trabajo en el área desde los 18 años — primero en dermatocosmiatría y química cosmética, luego en distintos centros estéticos y dermatológicos. Profundicé mi formación con diplomaturas y un máster en armonización facial, siempre enfocada en resultados naturales y seguros.",
+    "vaninaOff": "Fuera del consultorio: pilates, libros, formación constante, viajes y mate.",
+    "estefaniaBio": "Licenciada en Nutrición. Durante años fui paciente y recorrí distintos centros — esa experiencia definió cómo quería trabajar: con empatía, criterio y una mirada más completa. Acompaño el proceso desde los hábitos y la alimentación para que los resultados estéticos se sostengan en el tiempo.",
+    "estefaniaOff": "Fuera del consultorio: dibujo, pintura, amigos, familia, viajes y buena mesa."
+  },
+  "space": {
+    "eyebrow": "El espacio",
+    "heading": "Palermo,",
+    "headingAccent": "un lugar propio.",
+    "body": "Un consultorio íntimo, diseñado para que cada consulta sea personalizada y sin apuro. Atendemos con cita previa — así aseguramos el tiempo que cada tratamiento merece.",
+    "addressLabel": "Dirección",
+    "hoursLabel": "Horarios",
+    "contactLabel": "Reservas",
+    "howTo": "Cómo llegar"
+  },
+  "contact": {
+    "eyebrow": "Reservar turno",
+    "heading": "Empecemos",
+    "headingAccent": "a charlar.",
+    "body": "Escribinos por WhatsApp para agendar tu consulta inicial. Respondemos en el día.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "email": "Email",
+    "prefill": "Hola D’Ursi, quisiera reservar una consulta.",
+    "prefillTreatment": "Hola D’Ursi, quisiera más información sobre {name}."
+  },
+  "footer": {
+    "tagline": "Belleza consciente · Resultados reales",
+    "links": "Navegación",
+    "legal": "Legales",
+    "legalAviso": "Aviso legal",
+    "legalPriv": "Política de privacidad",
+    "copy": "© {year} D’Ursi Estética. Todos los derechos reservados.",
+    "credits": "Medicina estética responsable — MN 179124"
+  },
+  "marquee": [
+    "Belleza consciente",
+    "Resultados reales",
+    "Medicina estética",
+    "Nutrición integral",
+    "Palermo · Buenos Aires"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "philosophy": "Philosophy",
+    "treatments": "Treatments",
+    "about": "About",
+    "space": "Space",
+    "contact": "Contact",
+    "book": "Book a visit"
+  },
+  "hero": {
+    "eyebrow": "Aesthetic medicine · Buenos Aires",
+    "titleA": "Mindful",
+    "titleB": "beauty,",
+    "titleC": "real",
+    "titleD": "results",
+    "subtitle": "A space where aesthetic medicine, nutrition and healthy habits work together — so feeling well shows in the way you look.",
+    "cta1": "Book a consult",
+    "cta2": "See treatments",
+    "scroll": "Scroll"
+  },
+  "philosophy": {
+    "eyebrow": "Manifesto",
+    "heading": "It’s not only about looking well.",
+    "italicAccent": "it’s about",
+    "rest": "feeling well — and keeping it over time.",
+    "body": "We work one-on-one, listening and tailoring each treatment to what each person really needs. No unrealistic expectations. With judgement, empathy and a complete view of wellbeing.",
+    "pillars": {
+      "p1Title": "Mindful",
+      "p1Body": "Every decision takes your story, skin and goals into account — not passing trends.",
+      "p2Title": "Integral",
+      "p2Body": "Aesthetic medicine + nutrition + habits. Results last when everything aligns.",
+      "p3Title": "Natural",
+      "p3Body": "Safe interventions that enhance without erasing what makes you you."
+    }
+  },
+  "treatments": {
+    "eyebrow": "Treatments",
+    "heading": "Tailored facial",
+    "headingAccent": "protocols",
+    "subheading": "Twenty-four procedures organised along four complementary paths. Each plan is designed during the initial consultation, based on a full diagnosis.",
+    "groups": {
+      "faciales": "Facial",
+      "capilar": "Hair",
+      "corporales": "Body",
+      "consultas": "Consultations"
+    },
+    "askInfo": "Ask",
+    "items": {
+      "limpieza": {
+        "name": "Deep facial cleanse",
+        "short": "Professional hygiene that renews texture and glow.",
+        "long": "Hygienising cleanse with extraction, exfoliation and calming mask. Monthly maintenance keeps skin balanced."
+      },
+      "limpieza-alquimia": {
+        "name": "Deep facial cleanse with Alquimia",
+        "short": "Hygienising ritual powered by high-performance cosmetics.",
+        "long": "Combines deep cleansing with Alquimia-lab actives: vitamin C, mild acids and peptide serums. Skin primed, nourished and luminous."
+      },
+      "peeling": {
+        "name": "Peeling",
+        "short": "Controlled cellular renewal with medical acids.",
+        "long": "Acid application that accelerates cell turnover and treats spots, uneven texture, enlarged pores and signs of ageing."
+      },
+      "radiofrecuencia": {
+        "name": "Radiofrequency",
+        "short": "Stimulates collagen and tightens skin, non-invasive.",
+        "long": "Electromagnetic waves heat the deep dermis, stimulating collagen and improving firmness with zero downtime."
+      },
+      "fraxface": {
+        "name": "Fraxface",
+        "short": "Microneedling that renews skin from within.",
+        "long": "Fractional treatment creating micro-channels to stimulate deep regeneration. Ideal for scars, pores, texture and luminosity."
+      },
+      "hifu-facial": {
+        "name": "HIFU 2.5D 360 Max with Liposonix",
+        "short": "Non-surgical facial lift through focused ultrasound.",
+        "long": "High-intensity focused ultrasound working at different depths. Tightens, redefines contour and treats double chin — a surgical lift without a cut."
+      },
+      "prp": {
+        "name": "Platelet-rich plasma",
+        "short": "Your own blood as a regenerative active.",
+        "long": "Blood extraction and centrifugation to apply platelet growth factors. Regenerates, revitalises and improves skin quality."
+      },
+      "meso-facial": {
+        "name": "Facial mesotherapy",
+        "short": "Micro-infiltration of actives that restore glow and firmness.",
+        "long": "A cocktail of vitamins, hyaluronic acid and antioxidants in intradermal micro-doses. Hydrates, brightens and improves skin quality."
+      },
+      "meso-ojeras": {
+        "name": "Under-eye mesotherapy",
+        "short": "Targeted treatment for the eye contour.",
+        "long": "Selected actives for pigmentation and bags in the under-eye area. Brightens, decongests and refreshes the gaze."
+      },
+      "skinbooster": {
+        "name": "Skinbooster",
+        "short": "Deep, long-lasting hydration.",
+        "long": "Non-cross-linked hyaluronic acid that restores hydration, density and elasticity. Results hold for six months."
+      },
+      "botox": {
+        "name": "Botox",
+        "short": "Soften expression lines — naturally.",
+        "long": "Botulinum toxin applied in individualised doses — forehead, glabella, crow’s feet. Natural results that preserve expression."
+      },
+      "relleno": {
+        "name": "Hyaluronic acid filler",
+        "short": "Recover volume without changing your identity.",
+        "long": "Hyaluronic acid fillers for lips, cheekbones, chin, folds and under-eye. Bespoke facial design with a natural outcome."
+      },
+      "radiesse": {
+        "name": "Biostimulators (Radiesse)",
+        "short": "Stimulate your collagen from within.",
+        "long": "Calcium hydroxylapatite triggers endogenous collagen production. Firmness, density and skin quality improve progressively."
+      },
+      "prp-capilar": {
+        "name": "Hair platelet-rich plasma",
+        "short": "Scalp regeneration with your own growth factors.",
+        "long": "Blood extraction and centrifugation to apply platelet growth factors to the scalp. Stimulates follicles, slows hair loss and strengthens hair."
+      },
+      "meso-capilar": {
+        "name": "Hair mesotherapy",
+        "short": "Micro-infiltration of actives that nourish the follicle.",
+        "long": "Vitamin, mineral and amino-acid cocktail applied in micro-doses to the scalp. Revitalises the bulb, improves density and hair quality."
+      },
+      "criolipolisis": {
+        "name": "Cryolipolysis",
+        "short": "Localised fat reduction through controlled cold.",
+        "long": "Sustained cold that crystallises adipocytes in specific zones. The body eliminates them naturally over the following weeks. Ideal for abdomen, flanks, back and thighs."
+      },
+      "body-up": {
+        "name": "Body Up",
+        "short": "Body toning through electro-stimulation.",
+        "long": "Deep muscular stimulation that firms, activates circulation and improves body tone. Complements reduction and remodelling plans."
+      },
+      "peptonas": {
+        "name": "Peptonas",
+        "short": "Reduction and remodelling with collagen peptides.",
+        "long": "Micro-infiltration of peptonas that break down localised fat tissue and trigger body remodelling. Suitable for arms, abdomen, flanks and legs."
+      },
+      "meso-celulitis": {
+        "name": "Cellulite mesotherapy",
+        "short": "Direct action on cellulite-affected tissue.",
+        "long": "Micro-infiltration of specific actives that improve circulation, drain fluids and target fat nodules. Serial protocol for visible results."
+      },
+      "enzimas-lipoliticas": {
+        "name": "Lipolytic enzymes",
+        "short": "Enzymatic dissolution of localised fat.",
+        "long": "Application of enzymes that break down adipose cells in specific zones. Measurable reduction in a few sessions."
+      },
+      "hifu-corporal": {
+        "name": "HIFU 2.5D 360 Max with Liposonix — body",
+        "short": "Body tightening and remodelling via ultrasound.",
+        "long": "Focused ultrasound applied to body zones — abdomen, arms, legs, glutes. Tightens, redefines contours and reduces localised adiposity."
+      },
+      "depilacion": {
+        "name": "Laser hair removal",
+        "short": "State-of-the-art laser for all zones.",
+        "long": "Progressive laser hair removal for definitive results. Protocol tailored to skin type, phototype and the area being treated."
+      },
+      "consulta-medica": {
+        "name": "Medical aesthetic consultation",
+        "short": "Personalised diagnosis and treatment plan.",
+        "long": "In-depth interview, skin assessment and definition of an integral aesthetic plan. The starting point for any treatment — with no commitment."
+      },
+      "nutricion": {
+        "name": "Nutrition consultation",
+        "short": "Nutritional support that sustains the results.",
+        "long": "Personalised eating plan that complements the aesthetic journey. Sustainable habits so results hold over time."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "Two sisters,",
+    "headingAccent": "one shared path.",
+    "intro": "D’Ursi Estética was born from a very personal place: the idea of approaching beauty in a real, mindful, integral way. We are Estefanía and Vanina — each with her own path, sharing the same view of wellbeing.",
+    "vaninaBio": "Medical doctor specialised in aesthetic medicine. I’ve worked in the field since I was 18 — first in dermatocosmetics and cosmetic chemistry, then across aesthetic and dermatology centres. I deepened my training with postgraduate programs and a master’s degree in facial harmonisation — always focused on natural, safe results.",
+    "vaninaOff": "Off-hours: pilates, books, constant learning, travel and mate.",
+    "estefaniaBio": "Licensed nutritionist. For years I was a patient and walked through several centres — that experience shaped how I wanted to work: with empathy, judgement and a complete view. I accompany the process from habits and nutrition so aesthetic results hold over time.",
+    "estefaniaOff": "Off-hours: drawing, painting, friends, family, travel and a good table."
+  },
+  "space": {
+    "eyebrow": "The space",
+    "heading": "Palermo,",
+    "headingAccent": "a place of our own.",
+    "body": "An intimate practice, designed so each consultation is personalised and unhurried. By appointment only — this way every treatment gets the time it deserves.",
+    "addressLabel": "Address",
+    "hoursLabel": "Hours",
+    "contactLabel": "Booking",
+    "howTo": "Get directions"
+  },
+  "contact": {
+    "eyebrow": "Book",
+    "heading": "Let’s",
+    "headingAccent": "talk.",
+    "body": "Message us on WhatsApp to schedule your first consultation. Same-day replies.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "email": "Email",
+    "prefill": "Hi D’Ursi, I’d like to book a consultation.",
+    "prefillTreatment": "Hi D’Ursi, I’d like more information about {name}."
+  },
+  "footer": {
+    "tagline": "Mindful beauty · Real results",
+    "links": "Navigation",
+    "legal": "Legal",
+    "legalAviso": "Legal notice",
+    "legalPriv": "Privacy policy",
+    "copy": "© {year} D’Ursi Estética. All rights reserved.",
+    "credits": "Responsible aesthetic medicine — MN 179124"
+  },
+  "marquee": [
+    "Mindful beauty",
+    "Real results",
+    "Aesthetic medicine",
+    "Integral nutrition",
+    "Palermo · Buenos Aires"
+  ]
+}
