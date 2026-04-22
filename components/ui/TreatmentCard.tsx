@@ -53,7 +53,7 @@ export function TreatmentCard({ t, className }: TreatmentCardProps) {
         }
       }}
       className={clsx(
-        'group relative flex flex-col scroll-mt-28 border-t border-ink/15 py-8',
+        'group relative flex flex-col scroll-mt-28 border-t border-ink/15 py-4',
         className
       )}
     >

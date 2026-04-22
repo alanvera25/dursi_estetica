@@ -21,7 +21,7 @@
   "philosophy": {
     "eyebrow": "Manifiesto",
     "heading": "No se trata solo de verse bien.",
-    "italicAccent": "se trata",
+    "italicAccent": "Se trata",
     "rest": "de sentirse bien — y sostenerlo en el tiempo.",
     "body": "Trabajamos de manera personalizada, escuchando y adaptando cada tratamiento a lo que cada persona realmente necesita. Sin expectativas poco reales. Con criterio, empatía y una mirada completa del bienestar.",
     "pillars": {
@@ -72,7 +72,7 @@
         "long": "Tratamiento fraccional que genera microcanales para estimular regeneración profunda. Ideal para cicatrices, poros, textura y luminosidad."
       },
       "hifu-facial": {
-        "name": "HIFU 2.5D 360 Max con Liposonix",
+        "name": "HIFU 25D 360 Max con Liposonix",
         "short": "Lifting facial sin cirugía por ultrasonido focalizado.",
         "long": "Ultrasonido de alta intensidad enfocado que trabaja distintas profundidades. Tensa, redefine contorno facial y trata papada. Equivale al lifting quirúrgico sin corte."
       },
@@ -147,7 +147,7 @@
         "long": "Aplicación de enzimas que descomponen las células adiposas en zonas específicas. Reducción medible en pocas sesiones."
       },
       "hifu-corporal": {
-        "name": "HIFU 2.5D 360 Max con Liposonix corporal",
+        "name": "HIFU 25D 360 Max con Liposonix corporal",
         "short": "Tensado y remodelación corporal por ultrasonido.",
         "long": "Ultrasonido focalizado aplicado a zonas corporales — abdomen, brazos, piernas, glúteos. Tensa, redefine contornos y reduce adiposidad localizada."
       },

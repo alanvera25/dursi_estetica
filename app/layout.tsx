@@ -1,16 +1,16 @@
 import type { Metadata, Viewport } from 'next';
-import { Montserrat_Alternates, Cormorant_Garamond } from 'next/font/google';
+import { DM_Sans, Playfair_Display } from 'next/font/google';
 import './globals.css';
 
-const montserratAlt = Montserrat_Alternates({
-  weight: ['400', '500', '600', '700'],
+const dmSans = DM_Sans({
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-montserrat-alt',
   display: 'swap'
 });
 
-const cormorant = Cormorant_Garamond({
-  weight: ['300', '400', '500', '600'],
+const playfair = Playfair_Display({
+  weight: ['400', '500', '600', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   variable: '--font-cormorant',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${montserratAlt.variable} ${cormorant.variable}`}>
+    <html lang="es" className={`${dmSans.variable} ${playfair.variable}`}>
       <body>{children}</body>
     </html>
   );
