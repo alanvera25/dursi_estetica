@@ -7,9 +7,10 @@ import { useTranslations } from 'next-intl';
 import { LogoMark } from '@/components/brand/LogoMark';
 import { LangSwitcher } from './LangSwitcher';
 import { TreatmentsMenu } from './TreatmentsMenu';
+import { Instagram, MapPin, MessageCircle } from 'lucide-react';
 import { site } from '@/lib/site';
 
-const sections = ['philosophy', 'treatments', 'about', 'space', 'contact'] as const;
+const sections = ['treatments', 'about', 'contact'] as const;
 
 export function Nav() {
   const t = useTranslations('nav');
@@ -87,6 +88,17 @@ export function Nav() {
           </nav>
 
           <div className="hidden items-center gap-6 lg:flex">
+            <div className="flex items-center gap-4">
+              <a href={site.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-ink/55 transition-colors hover:text-ink">
+                <Instagram size={17} strokeWidth={1.5} />
+              </a>
+              <a href={site.address.mapsLink} target="_blank" rel="noopener noreferrer" aria-label="Google Maps" className="text-ink/55 transition-colors hover:text-ink">
+                <MapPin size={17} strokeWidth={1.5} />
+              </a>
+              <a href={site.whatsapp()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-ink/55 transition-colors hover:text-ink">
+                <MessageCircle size={17} strokeWidth={1.5} />
+              </a>
+            </div>
             <LangSwitcher />
             <a
               href={site.whatsapp(tPrefill('prefill'))}
@@ -147,7 +159,18 @@ export function Nav() {
             ))}
           </nav>
           <div className="flex items-center justify-between">
-            <LangSwitcher />
+            <div className="flex items-center gap-5">
+              <LangSwitcher />
+              <a href={site.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-ink/55 transition-colors hover:text-ink">
+                <Instagram size={18} strokeWidth={1.5} />
+              </a>
+              <a href={site.address.mapsLink} target="_blank" rel="noopener noreferrer" aria-label="Google Maps" className="text-ink/55 transition-colors hover:text-ink">
+                <MapPin size={18} strokeWidth={1.5} />
+              </a>
+              <a href={site.whatsapp()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-ink/55 transition-colors hover:text-ink">
+                <MessageCircle size={18} strokeWidth={1.5} />
+              </a>
+            </div>
             <a
               href={site.whatsapp(tPrefill('prefill'))}
               target="_blank"

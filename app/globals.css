@@ -113,7 +113,7 @@ button { font: inherit; letter-spacing: inherit; }
 }
 
 .marquee-track {
-  animation: marquee 38s linear infinite;
+  animation: marquee 10s linear infinite;
   will-change: transform;
 }
 

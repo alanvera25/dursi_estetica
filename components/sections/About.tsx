@@ -10,26 +10,26 @@ export function About() {
   const [vanina, estefania] = site.professionals;
 
   return (
-    <section id="about" className="relative bg-bone py-28 lg:py-40">
+    <section id="about" className="relative bg-bone py-16 lg:py-24">
       <div className="mx-auto max-w-[1440px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-6 lg:gap-10">
-          <Reveal className="col-span-12 lg:col-span-4">
+        <div className="flex flex-col">
+          <Reveal>
             <p className="smallcaps text-ink/50">{t('eyebrow')}</p>
           </Reveal>
-          <Reveal delay={0.1} className="col-span-12 lg:col-span-8">
-            <h2 className="font-display text-[clamp(1.9rem,4vw,3.6rem)] font-light leading-[1.05] tracking-[-0.01em] text-ink">
+          <Reveal delay={0.1}>
+            <h2 className="mt-6 font-display text-[clamp(1.9rem,4vw,3.6rem)] font-light leading-[1.05] tracking-[-0.01em] text-ink">
               {t('heading')}{' '}
               <br />
               <span className="italic">{t('headingAccent')}</span>
             </h2>
-            <p className="mt-8 max-w-xl text-[0.98rem] leading-relaxed text-ink/75">
+            <p className="mt-8 text-[clamp(1rem,1.6vw,1.35rem)] leading-relaxed text-ink/75">
               {t('intro')}
             </p>
           </Reveal>
         </div>
 
         {/* two professionals, staggered layout */}
-        <div className="mt-24 grid grid-cols-12 gap-6 lg:mt-32 lg:gap-10">
+        <div className="mt-14 grid grid-cols-12 gap-6 lg:mt-16 lg:gap-10">
           {/* Vanina - left, lower */}
           <Reveal className="col-span-12 md:col-span-6 lg:col-span-5 lg:col-start-1">
             <ProfessionalCard
@@ -47,7 +47,7 @@ export function About() {
           {/* Estefanía - right, offset up */}
           <Reveal
             delay={0.15}
-            className="col-span-12 md:col-span-6 lg:col-span-5 lg:col-start-8 lg:-mt-16"
+            className="col-span-12 md:col-span-6 lg:col-span-5 lg:col-start-8"
           >
             <ProfessionalCard
               index="02"
@@ -57,7 +57,7 @@ export function About() {
               specialty={estefania.specialty}
               bio={t('estefaniaBio')}
               off={t('estefaniaOff')}
-              imgSrc="https://images.unsplash.com/photo-1584516150909-c43483ee7932?auto=format&fit=crop&w=900&q=80"
+              imgSrc="/images/pepi.png"
               flipped
             />
           </Reveal>

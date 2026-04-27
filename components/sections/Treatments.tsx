@@ -9,7 +9,7 @@ export function Treatments() {
   const t = useTranslations('treatments');
 
   return (
-    <section id="treatments" className="relative overflow-hidden bg-sage py-28 lg:py-40">
+    <section id="treatments" className="relative overflow-hidden bg-sage py-16 lg:py-24">
       <div className="pointer-events-none absolute inset-0 opacity-30" aria-hidden>
         <div className="absolute -right-40 top-20 h-[600px] w-[600px] rounded-full bg-gradient-to-br from-ink/5 to-transparent blur-3xl" />
         <div className="absolute -left-32 bottom-0 h-[500px] w-[500px] rounded-full bg-gradient-to-tr from-taupe/10 to-transparent blur-3xl" />
@@ -31,7 +31,7 @@ export function Treatments() {
           </Reveal>
         </div>
 
-        <div className="mt-20 flex flex-col gap-24 lg:mt-32 lg:gap-32">
+        <div className="mt-12 flex flex-col gap-14 lg:mt-16 lg:gap-16">
           {categories.map((cat, ci) => {
             const items = treatments.filter((x) => x.category === cat);
             return (

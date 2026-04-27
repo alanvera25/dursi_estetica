@@ -88,7 +88,7 @@ export function TreatmentsMenu({ active, onNavigate }: TreatmentsMenuProps) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 8 }}
             transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="fixed left-1/2 top-20 z-50 -translate-x-1/2"
+            className="absolute left-0 top-full z-50 mt-3"
             onMouseEnter={handleEnter}
             onMouseLeave={handleLeave}
           >

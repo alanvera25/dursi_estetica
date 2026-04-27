@@ -84,14 +84,7 @@ export function Hero() {
             </motion.span>
           </h1>
 
-          <motion.p
-            {...fade(1.4)}
-            className="mt-10 max-w-md text-[0.98rem] leading-relaxed text-ink/75 lg:ml-auto"
-          >
-            {t('subtitle')}
-          </motion.p>
-
-          <motion.div {...fade(1.8)} className="mt-10 flex flex-wrap items-center gap-3 lg:ml-auto">
+          <motion.div {...fade(1.4)} className="mt-10 flex flex-wrap items-center gap-3 lg:ml-auto">
             <WhatsAppButton message={tContact('prefill')} variant="solid">
               {t('cta1')}
             </WhatsAppButton>
