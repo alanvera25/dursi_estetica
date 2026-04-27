@@ -38,7 +38,7 @@ function BusinessSchema() {
     '@id': 'https://dursi-estetica.vercel.app',
     url: 'https://dursi-estetica.vercel.app',
     telephone: '+5491166021077',
-    email: 'dursi@estetica.com',
+    email: 've.centroestetica@gmail.com',
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',

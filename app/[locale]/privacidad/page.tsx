@@ -47,8 +47,8 @@ export default async function Page({
           </h2>
           <p className="mt-4">
             {isEs
-              ? 'Podés solicitar acceso, rectificación o eliminación de tus datos personales en cualquier momento escribiéndonos a dursi@estetica.com.'
-              : 'You may request access, rectification or deletion of your personal data at any time by writing to dursi@estetica.com.'}
+              ? 'Podés solicitar acceso, rectificación o eliminación de tus datos personales en cualquier momento escribiéndonos a ve.centroestetica@gmail.com.'
+              : 'You may request access, rectification or deletion of your personal data at any time by writing to ve.centroestetica@gmail.com.'}
           </p>
         </section>
         <section>

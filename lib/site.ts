@@ -3,7 +3,7 @@ export const site = {
   shortName: 'Dursi',
   handle: '@dursi.estetica',
   instagram: 'https://www.instagram.com/dursi.estetica/',
-  email: 'dursi@estetica.com',
+  email: 've.centroestetica@gmail.com',
   phone: '+54 9 11 6602 1077',
   phoneRaw: '5491166021077',
   whatsapp: (msg = '') =>
