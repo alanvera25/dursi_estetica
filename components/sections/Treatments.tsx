@@ -1,12 +1,18 @@
 'use client';
 
+import { useState } from 'react';
+import clsx from 'clsx';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { treatments, categories } from '@/lib/treatments';
+import { treatments, categories, type TreatmentCategory } from '@/lib/treatments';
 import { TreatmentCard } from '@/components/ui/TreatmentCard';
-import { Reveal, StaggerGroup } from '@/components/ui/Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export function Treatments() {
   const t = useTranslations('treatments');
+  const [active, setActive] = useState<TreatmentCategory>('faciales');
+
+  const visible = treatments.filter((x) => x.category === active);
 
   return (
     <section id="treatments" className="relative overflow-hidden bg-sage py-16 lg:py-24">
@@ -31,36 +37,47 @@ export function Treatments() {
           </Reveal>
         </div>
 
-        <div className="mt-12 flex flex-col gap-14 lg:mt-16 lg:gap-16">
-          {categories.map((cat, ci) => {
-            const items = treatments.filter((x) => x.category === cat);
-            return (
-              <div key={cat} className="grid grid-cols-12 gap-6 lg:gap-10">
-                <Reveal className="col-span-12 lg:col-span-3">
-                  <div className="sticky top-28">
-                    <span className="num-chip text-xs text-ink/50">
-                      0{ci + 1} / 04
-                    </span>
-                    <h3 className="mt-4 font-display text-3xl font-light leading-none tracking-[-0.01em] text-ink lg:text-4xl">
-                      <span className="italic">{t(`groups.${cat}`)}</span>
-                    </h3>
-                    <div className="mt-4 h-px w-16 bg-ink/30" />
-                  </div>
-                </Reveal>
-
-                <StaggerGroup
-                  className="col-span-12 lg:col-span-9"
-                  stagger={0.06}
-                >
-                  {items.map((item) => (
-                    <TreatmentCard key={item.key} t={item} />
-                  ))}
-                  <div className="border-t border-ink/15" />
-                </StaggerGroup>
-              </div>
-            );
-          })}
+        {/* category tabs */}
+        <div className="mt-10 flex flex-wrap gap-x-1 border-b border-ink/15 lg:mt-12">
+          {categories.map((cat, i) => (
+            <button
+              key={cat}
+              onClick={() => setActive(cat)}
+              className={clsx(
+                'relative px-4 py-3 text-left transition-colors duration-300',
+                active === cat ? 'text-ink' : 'text-ink/40 hover:text-ink/70'
+              )}
+            >
+              <span className="num-chip mr-2 text-[0.65rem] text-ink/30">0{i + 1}</span>
+              <span className="font-sans text-xs uppercase tracking-[0.18em]">
+                {t(`groups.${cat}`)}
+              </span>
+              {active === cat && (
+                <motion.span
+                  layoutId="tab-line"
+                  className="absolute inset-x-0 -bottom-px h-px bg-ink"
+                  transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                />
+              )}
+            </button>
+          ))}
         </div>
+
+        {/* treatment grid */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={active}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            className="grid grid-cols-1 md:grid-cols-2 md:gap-x-10"
+          >
+            {visible.map((item) => (
+              <TreatmentCard key={item.key} t={item} />
+            ))}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </section>
   );

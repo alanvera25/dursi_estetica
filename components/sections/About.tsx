@@ -40,7 +40,7 @@ export function About() {
               specialty={vanina.specialty}
               bio={t('vaninaBio')}
               off={t('vaninaOff')}
-              imgSrc="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80"
+              imgSrc="/images/vani.jpeg"
             />
           </Reveal>
 

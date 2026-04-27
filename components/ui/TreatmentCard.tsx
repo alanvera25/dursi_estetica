@@ -93,18 +93,20 @@ export function TreatmentCard({ t, className }: TreatmentCardProps) {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         className="overflow-hidden"
       >
-        <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-[1fr_auto]">
+        <div className="mt-6 flex flex-col gap-4">
           <p className="max-w-2xl pl-[2.5rem] text-base leading-relaxed text-ink/75 md:pl-[3.5rem]">
             {long}
           </p>
-          <a
-            href={site.whatsapp(trContact('prefillTreatment', { name }))}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="smallcaps self-end border-b border-ink pb-1 pr-0 text-ink transition-all hover:pr-2"
-          >
-            {trRoot('askInfo')} →
-          </a>
+          <div className="flex justify-end">
+            <a
+              href={site.whatsapp(trContact('prefillTreatment', { name }))}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="smallcaps border-b border-ink pb-1 pr-0 text-ink transition-all hover:pr-2"
+            >
+              {trRoot('askInfo')} →
+            </a>
+          </div>
         </div>
       </motion.div>
     </motion.article>
