@@ -37,7 +37,7 @@
     "eyebrow": "Treatments",
     "heading": "Tailored facial",
     "headingAccent": "protocols",
-    "subheading": "Twenty-four procedures organised along four complementary paths. Each plan is designed during the initial consultation, based on a full diagnosis.",
+    "subheading": "Twenty-five procedures organised along four complementary paths. Each plan is designed during the initial consultation, based on a full diagnosis.",
     "groups": {
       "faciales": "Facial",
       "capilar": "Hair",
@@ -48,123 +48,220 @@
     "items": {
       "limpieza": {
         "name": "Deep facial cleanse",
-        "short": "Professional hygiene that renews texture and glow.",
-        "long": "Hygienising cleanse with extraction, exfoliation and calming mask. Monthly maintenance keeps skin balanced."
+        "short": "Removes impurities, dead cells and excess sebum to unclog pores.",
+        "long": "Deep facial cleanse that removes impurities, dead cells and excess sebum, freeing pores and improving skin texture. Includes cleansing, exfoliation, extractions and specific actives, leaving skin cleaner, more luminous and balanced.",
+        "price": "$45.000",
+        "duration": "1 hr",
+        "bullets": []
       },
       "limpieza-alquimia": {
         "name": "Deep facial cleanse with Alquimia",
-        "short": "Hygienising ritual powered by high-performance cosmetics.",
-        "long": "Combines deep cleansing with Alquimia-lab actives: vitamin C, mild acids and peptide serums. Skin primed, nourished and luminous."
+        "short": "Comprehensive device-assisted ritual that cleanses, hydrates and improves luminosity and firmness.",
+        "long": "Integral, deep and complete treatment that cleanses, hydrates and improves the luminosity and firmness of the skin. Finished with facial massage for extra relaxation. Includes face, neck, décolletage, lips and eyelids.",
+        "price": "$85.000",
+        "duration": "1 hr 20 min",
+        "bullets": []
       },
       "peeling": {
         "name": "Peeling",
-        "short": "Controlled cellular renewal with medical acids.",
-        "long": "Acid application that accelerates cell turnover and treats spots, uneven texture, enlarged pores and signs of ageing."
+        "short": "Controlled cellular renewal adapted to the required depth.",
+        "long": "Acid application that accelerates cell turnover, treating spots, uneven texture, enlarged pores and signs of ageing. The variant is chosen based on the required depth:",
+        "price": "From $65.000",
+        "duration": "30 min",
+        "bullets": [
+          "Cosmetic (mild) — superficial renewal, no visible peeling · $65.000",
+          "Medical (medium) — deeper layers, improves spots, pores and fine lines · $80.000",
+          "Medical (strong) — intensive renewal for pronounced spots, acne or ageing · $80.000"
+        ]
       },
       "radiofrecuencia": {
-        "name": "Radiofrequency",
-        "short": "Stimulates collagen and tightens skin, non-invasive.",
-        "long": "Electromagnetic waves heat the deep dermis, stimulating collagen and improving firmness with zero downtime."
+        "name": "Fractional Radiofrequency",
+        "short": "Stimulates collagen and elastin for a progressive tightening effect with minimal recovery.",
+        "long": "Fractional radiofrequency stimulates collagen and elastin production through micro-energy in the deep skin layers. Improves firmness, texture and wrinkles, achieving a progressive tightening effect with minimal recovery.",
+        "price": "$28.000",
+        "duration": "30–35 min",
+        "bullets": []
       },
       "fraxface": {
-        "name": "Fraxface",
-        "short": "Microneedling that renews skin from within.",
-        "long": "Fractional treatment creating micro-channels to stimulate deep regeneration. Ideal for scars, pores, texture and luminosity."
+        "name": "FraxFace",
+        "short": "Rejuvenation with fractional technology to improve texture, pores and firmness.",
+        "long": "Rejuvenation treatment combining fractional technology to stimulate deep collagen production. Improves firmness, texture, pores and fine lines, achieving smoother, more even and luminous skin with progressive recovery.",
+        "price": "$85.000",
+        "duration": "30 min",
+        "bullets": []
+      },
+      "fraxface-prp": {
+        "name": "FraxFace with Platelet-Rich Plasma",
+        "short": "Fractional technology combined with platelet-rich plasma for enhanced results and faster recovery.",
+        "long": "Rejuvenation treatment combining fractional technology with plasma rich in regenerative actives. Stimulates collagen production, improves skin texture, firmness and luminosity, enhancing results and promoting faster recovery.",
+        "price": "$160.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "hifu-facial": {
-        "name": "HIFU 25D 360 Max with Liposonix",
-        "short": "Non-surgical facial lift through focused ultrasound.",
-        "long": "High-intensity focused ultrasound working at different depths. Tightens, redefines contour and treats double chin — a surgical lift without a cut."
+        "name": "HIFU 25D Max with Liposonix",
+        "short": "Non-invasive facial lift with focused ultrasound to tighten and redefine contour.",
+        "long": "Non-invasive treatment using focused ultrasound to tighten skin and reduce localised fat. Improves firmness, redefines contour and generates a progressive lifting effect.",
+        "price": "From $60.000",
+        "duration": "45 min–1 hr 30 min",
+        "bullets": [
+          "Full face with double chin · $88.000 · 1 hr",
+          "Full face with neck and double chin · $99.000 · 1 hr",
+          "Full face, double chin and décolletage · $110.000 · 1 hr 30 min",
+          "Double chin only · $60.000 · 45 min"
+        ]
       },
       "prp": {
-        "name": "Platelet-rich plasma",
-        "short": "Your own blood as a regenerative active.",
-        "long": "Blood extraction and centrifugation to apply platelet growth factors. Regenerates, revitalises and improves skin quality."
+        "name": "Platelet-Rich Plasma",
+        "short": "Regenerative treatment with your own growth factors to improve texture and firmness.",
+        "long": "Platelet-rich plasma (PRP) is a regenerative treatment that stimulates collagen and cellular repair using your own growth factors. Improves skin texture, luminosity and firmness. Maximum 4 sessions per year.",
+        "price": "$90.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "meso-facial": {
         "name": "Facial mesotherapy",
-        "short": "Micro-infiltration of actives that restore glow and firmness.",
-        "long": "A cocktail of vitamins, hyaluronic acid and antioxidants in intradermal micro-doses. Hydrates, brightens and improves skin quality."
+        "short": "Vitamin and antioxidant micro-injections to hydrate, brighten and stimulate collagen.",
+        "long": "Superficial micro-injections into the dermis with actives such as vitamins, minerals and antioxidants. Deep hydration and improved skin quality, increased luminosity, collagen and elastin stimulation, and softening of fine lines. Fast, minimally invasive procedure.",
+        "price": "$40.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "meso-ojeras": {
         "name": "Under-eye mesotherapy",
-        "short": "Targeted treatment for the eye contour.",
-        "long": "Selected actives for pigmentation and bags in the under-eye area. Brightens, decongests and refreshes the gaze."
+        "short": "Micro-injections with depigmenting and hydrating actives for the periocular area.",
+        "long": "Superficial micro-injections in the periocular area with depigmenting, hydrating and antioxidant actives. Helps brighten under-eye pigmentation, improves skin hydration and quality, illuminates the gaze and softens fine lines. Fast, minimally invasive procedure.",
+        "price": "$38.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "skinbooster": {
         "name": "Skinbooster",
-        "short": "Deep, long-lasting hydration.",
-        "long": "Non-cross-linked hyaluronic acid that restores hydration, density and elasticity. Results hold for six months."
+        "short": "Low-density hyaluronic acid for deep, sustained hydration and improved skin quality.",
+        "long": "Micro-injections of low-density hyaluronic acid into the dermis to deeply hydrate and improve skin quality. Provides deep and sustained hydration, improves texture and elasticity, adds luminosity and softens fine lines.",
+        "price": "$50.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "botox": {
-        "name": "Botox",
-        "short": "Soften expression lines — naturally.",
-        "long": "Botulinum toxin applied in individualised doses — forehead, glabella, crow’s feet. Natural results that preserve expression."
+        "name": "Botox (botulinum toxin)",
+        "short": "Botulinum toxin micro-injections to relax muscles and soften expression lines.",
+        "long": "Application of botulinum toxin micro-injections to specific muscles to relax their contraction. Areas: upper third (forehead, glabella and crow’s feet), bruxism (masseters), nasal tip, gummy smile and lip corners. Visible effect at 5–7 days, touch-ups at 10–15 days. Duration: 4 to 5 months depending on the patient.",
+        "price": "Consult",
+        "duration": "",
+        "bullets": []
       },
       "relleno": {
         "name": "Hyaluronic acid filler",
-        "short": "Recover volume without changing your identity.",
-        "long": "Hyaluronic acid fillers for lips, cheekbones, chin, folds and under-eye. Bespoke facial design with a natural outcome."
+        "short": "Restores volume and defines contours for a natural, immediate result.",
+        "long": "Micro-injections of hyaluronic acid to restore volume, define contours and improve facial harmony. Areas: lips (volume, definition and hydration), cheekbones (nasolabial fold or marionette lines), chin, jawline and under-eye. We do not perform rhinomodelling. Result duration: 6 to 8 months depending on product density and each patient.",
+        "price": "Consult",
+        "duration": "",
+        "bullets": []
       },
       "radiesse": {
         "name": "Biostimulators (Radiesse)",
-        "short": "Stimulate your collagen from within.",
-        "long": "Calcium hydroxylapatite triggers endogenous collagen production. Firmness, density and skin quality improve progressively."
+        "short": "Calcium hydroxylapatite biostimulator that activates natural collagen and elastin production.",
+        "long": "Not a filler. Calcium hydroxylapatite biostimulator that activates the production of your own collagen and elastin. Improves firmness and elasticity, restructures and defines contours with natural, long-lasting results. Progressive effect: visible from 2 months, lasting approximately 1 year.",
+        "price": "Consult",
+        "duration": "",
+        "bullets": []
       },
       "prp-capilar": {
-        "name": "Hair platelet-rich plasma",
-        "short": "Scalp regeneration with your own growth factors.",
-        "long": "Blood extraction and centrifugation to apply platelet growth factors to the scalp. Stimulates follicles, slows hair loss and strengthens hair."
+        "name": "Hair Platelet-Rich Plasma",
+        "short": "Growth-factor-rich plasma to stimulate follicles and improve hair density.",
+        "long": "Platelet-rich plasma obtained from the patient’s blood is applied to the scalp. Growth factors stimulate hair follicles and improve blood supply. Reduces hair loss, stimulates growth, improves thickness and density, strengthens the follicle and adds shine and quality to hair.",
+        "price": "$90.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "meso-capilar": {
         "name": "Hair mesotherapy",
-        "short": "Micro-infiltration of actives that nourish the follicle.",
-        "long": "Vitamin, mineral and amino-acid cocktail applied in micro-doses to the scalp. Revitalises the bulb, improves density and hair quality."
+        "short": "Nourishing micro-injections to activate the follicle and improve scalp health.",
+        "long": "Micro-injections into the scalp with actives such as vitamins, minerals, amino acids and stimulating factors to nourish and activate the hair follicle. Reduces shedding, stimulates growth, improves thickness and density, strengthens hair and improves scalp quality.",
+        "price": "$35.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "criolipolisis": {
         "name": "Cryolipolysis",
-        "short": "Localised fat reduction through controlled cold.",
-        "long": "Sustained cold that crystallises adipocytes in specific zones. The body eliminates them naturally over the following weeks. Ideal for abdomen, flanks, back and thighs."
+        "short": "Controlled cold to destroy fat cells and reshape body contour, non-surgically.",
+        "long": "Application of controlled cold to the target area to trigger the destruction of adipocyte cells. Reduces localised fat and shapes body contour. Non-invasive procedure with progressive, natural results. May cause temporary redness or sensitivity.",
+        "price": "$45.000 per zone",
+        "duration": "40 min",
+        "bullets": []
       },
       "body-up": {
         "name": "Body Up",
-        "short": "Body toning through electro-stimulation.",
-        "long": "Deep muscular stimulation that firms, activates circulation and improves body tone. Complements reduction and remodelling plans."
+        "short": "Electromagnetic muscle stimulation to tone and define body contour.",
+        "long": "Non-invasive treatment using electromagnetic muscle stimulation to generate intense contractions, working the muscle in depth. Tones and strengthens musculature, improves body firmness, helps reduce localised fat and defines contour.",
+        "price": "$25.000 per zone",
+        "duration": "30 min",
+        "bullets": []
       },
       "peptonas": {
         "name": "Peptonas",
-        "short": "Reduction and remodelling with collagen peptides.",
-        "long": "Micro-infiltration of peptonas that break down localised fat tissue and trigger body remodelling. Suitable for arms, abdomen, flanks and legs."
+        "short": "Deep muscle stimulation to reduce fat and improve body contour.",
+        "long": "Non-invasive treatment using electromagnetic muscle stimulation to generate intense contractions, working the muscle in depth. Tones and strengthens musculature, improves body firmness, helps reduce localised fat and defines contour.",
+        "price": "$45.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "meso-celulitis": {
         "name": "Cellulite mesotherapy",
-        "short": "Direct action on cellulite-affected tissue.",
-        "long": "Micro-infiltration of specific actives that improve circulation, drain fluids and target fat nodules. Serial protocol for visible results."
+        "short": "Lipolytic and draining micro-injections to improve cellulite-affected tissue.",
+        "long": "Superficial micro-injections in the target area with lipolytic, draining and firming actives to improve the tissue. Improves the appearance of cellulite, reduces fluid retention, improves skin texture and adds firmness.",
+        "price": "$40.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "enzimas-lipoliticas": {
         "name": "Lipolytic enzymes",
-        "short": "Enzymatic dissolution of localised fat.",
-        "long": "Application of enzymes that break down adipose cells in specific zones. Measurable reduction in a few sessions."
+        "short": "Phosphatidylcholine micro-injections to break down localised fat with progressive results.",
+        "long": "Micro-injections in the target area with phosphatidylcholine to promote the breakdown of localised fat. Reduces localised adiposity, improves body contour, complements other reduction treatments. Progressive results.",
+        "price": "$45.000 per zone",
+        "duration": "35 min",
+        "bullets": []
       },
       "hifu-corporal": {
-        "name": "HIFU 25D 360 Max with Liposonix — body",
-        "short": "Body tightening and remodelling via ultrasound.",
-        "long": "Focused ultrasound applied to body zones — abdomen, arms, legs, glutes. Tightens, redefines contours and reduces localised adiposity."
+        "name": "HIFU 25D 360 — body",
+        "short": "High-intensity focused ultrasound to reduce fat and improve body firmness.",
+        "long": "High-intensity focused ultrasound technology acting in depth to destroy fat cells and enhance the reduction of localised adiposity. Reduces fat, improves skin firmness, defines body contour and stimulates collagen. No recovery time.",
+        "price": "From $99.000",
+        "duration": "1–2 hrs",
+        "bullets": [
+          "1 zone · $99.000 · 1 hr",
+          "2 zones · $176.500 · 1 hr 30 min",
+          "3 zones · $232.500 · 1 hr 40 min",
+          "4 zones · $265.500 · 2 hrs"
+        ]
       },
       "depilacion": {
         "name": "Laser hair removal",
-        "short": "State-of-the-art laser for all zones.",
-        "long": "Progressive laser hair removal for definitive results. Protocol tailored to skin type, phototype and the area being treated."
+        "short": "Soprano Ice Titanium laser for progressive, long-lasting hair reduction.",
+        "long": "Treatment with Soprano Ice Titanium laser technology that acts on the hair follicle through heat, progressively weakening hair growth without damaging the skin. Progressive and lasting reduction, suitable for different skin types and body areas. Fast, virtually painless, with a cooling system for greater comfort.",
+        "price": "Consult per zone",
+        "duration": "",
+        "bullets": []
       },
       "consulta-medica": {
         "name": "Medical aesthetic consultation",
-        "short": "Personalised diagnosis and treatment plan.",
-        "long": "In-depth interview, skin assessment and definition of an integral aesthetic plan. The starting point for any treatment — with no commitment."
+        "short": "Personalised diagnosis and comprehensive aesthetic treatment plan.",
+        "long": "Consultation with an aesthetic medicine specialist for personalised diagnosis and definition of an integral treatment plan. The starting point for any treatment.",
+        "price": "$45.000",
+        "duration": "",
+        "bullets": []
       },
       "nutricion": {
         "name": "Nutrition consultation",
-        "short": "Nutritional support that sustains the results.",
-        "long": "Personalised eating plan that complements the aesthetic journey. Sustainable habits so results hold over time."
+        "short": "Nutritional consultation and personalised eating plan to sustain results.",
+        "long": "Nutritional support to complement the aesthetic journey. Personalised eating plan with sustainable habits so results hold over time.",
+        "price": "$35.000",
+        "duration": "",
+        "bullets": [
+          "Consultation · $35.000",
+          "Eating plan · $20.000"
+        ]
       }
     }
   },

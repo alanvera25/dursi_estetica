@@ -22,6 +22,9 @@ export function TreatmentCard({ t, className }: TreatmentCardProps) {
   const name = tr('name');
   const short = tr('short');
   const long = tr('long');
+  const price = tr('price');
+  const duration = tr('duration');
+  const bullets = tr.raw('bullets') as string[];
 
   // Auto-expand when navigating to #treatment-{key}
   useEffect(() => {
@@ -69,6 +72,13 @@ export function TreatmentCard({ t, className }: TreatmentCardProps) {
               {name}
             </h3>
             <p className="mt-2 max-w-lg text-sm leading-relaxed text-ink/60">{short}</p>
+            {(price || duration) && (
+              <p className="mt-3 text-sm font-semibold text-ink/85">
+                {price}
+                {price && duration && <span className="mx-2 font-light text-ink/30">|</span>}
+                {duration && <span className="font-normal text-ink/50">{duration}</span>}
+              </p>
+            )}
           </div>
         </div>
         <div className="mt-2 flex shrink-0 items-center">
@@ -97,6 +107,16 @@ export function TreatmentCard({ t, className }: TreatmentCardProps) {
           <p className="max-w-2xl pl-[2.5rem] text-base leading-relaxed text-ink/75 md:pl-[3.5rem]">
             {long}
           </p>
+          {bullets.length > 0 && (
+            <ul className="flex flex-col gap-1.5 pl-[2.5rem] md:pl-[3.5rem]">
+              {bullets.map((b, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-ink/70">
+                  <span className="mt-[3px] shrink-0 text-ink/30">—</span>
+                  <span>{b}</span>
+                </li>
+              ))}
+            </ul>
+          )}
           <div className="flex justify-end">
             <a
               href={site.whatsapp(trContact('prefillTreatment', { name }))}

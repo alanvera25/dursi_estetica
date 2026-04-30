@@ -37,7 +37,7 @@
     "eyebrow": "Tratamientos",
     "heading": "Protocolos faciales",
     "headingAccent": "a medida",
-    "subheading": "Veinticuatro procedimientos organizados en cuatro caminos complementarios. Cada plan se diseña en la consulta inicial, según diagnóstico.",
+    "subheading": "Veinticinco procedimientos organizados en cuatro caminos complementarios. Cada plan se diseña en la consulta inicial, según diagnóstico.",
     "groups": {
       "faciales": "Faciales",
       "capilar": "Capilar",
@@ -48,123 +48,220 @@
     "items": {
       "limpieza": {
         "name": "Limpieza facial profunda",
-        "short": "Higiene profesional que renueva textura y luminosidad.",
-        "long": "Limpieza higienizante con extracción, exfoliación y máscara calmante. Recomendada mensualmente para mantener una piel equilibrada."
+        "short": "Elimina impurezas, células muertas y exceso de sebo para liberar los poros.",
+        "long": "Higiene facial profunda que elimina impurezas, células muertas y exceso de sebo, liberando los poros y mejorando la textura de la piel. Incluye higiene, exfoliación, extracciones y activos específicos, dejando la piel más limpia, luminosa y equilibrada.",
+        "price": "$45.000",
+        "duration": "1 hr",
+        "bullets": []
       },
       "limpieza-alquimia": {
         "name": "Limpieza facial profunda con alquimia",
-        "short": "Ritual higienizante potenciado con cosmética de alto rendimiento.",
-        "long": "Combina limpieza profunda con activos de laboratorio Alquimia: vitamina C, ácidos suaves y sueros peptídicos. Piel preparada, nutrida y luminosa."
+        "short": "Ritual integral con aparatología que limpia, hidrata y mejora luminosidad y firmeza.",
+        "long": "Tratamiento integral, profundo y completo que limpia, hidrata y mejora la luminosidad y firmeza de la piel. Al finalizar, se realizan masajes faciales que aportan una relajación extra. Incluye rostro, cuello, escote, labios y párpados.",
+        "price": "$85.000",
+        "duration": "1 hr 20 min",
+        "bullets": []
       },
       "peeling": {
         "name": "Peeling",
-        "short": "Renovación celular controlada con ácidos médicos.",
-        "long": "Aplicación de ácidos que aceleran el recambio celular y tratan manchas, textura irregular, poros dilatados y signos de envejecimiento."
+        "short": "Renovación celular controlada adaptada a la profundidad requerida.",
+        "long": "Aplicación de ácidos que aceleran el recambio celular, tratando manchas, textura irregular, poros dilatados y signos de envejecimiento. La variante se elige según la profundidad requerida:",
+        "price": "Desde $65.000",
+        "duration": "30 min",
+        "bullets": [
+          "Cosmetológico (suave) — renovación superficial, sin descamación visible · $65.000",
+          "Médico (medio) — capas más profundas, mejora manchas, poros y líneas finas · $80.000",
+          "Médico (fuerte) — renovación intensa para manchas marcadas, acné o envejecimiento · $80.000"
+        ]
       },
       "radiofrecuencia": {
-        "name": "Radiofrecuencia",
-        "short": "Estimula colágeno y tensa piel sin intervenir.",
-        "long": "Emisión de ondas electromagnéticas que calientan la dermis profunda, estimulan colágeno y mejoran firmeza sin downtime."
+        "name": "Radiofrecuencia Fraccionada",
+        "short": "Estimula colágeno y elastina para un efecto tensor progresivo con mínima recuperación.",
+        "long": "La radiofrecuencia fraccionada estimula la producción de colágeno y elastina mediante microenergía en capas profundas de la piel. Mejora la firmeza, la textura y las arrugas, logrando un efecto tensor progresivo con mínima recuperación.",
+        "price": "$28.000",
+        "duration": "30–35 min",
+        "bullets": []
       },
       "fraxface": {
-        "name": "Fraxface",
-        "short": "Microperforación para renovar la piel desde adentro.",
-        "long": "Tratamiento fraccional que genera microcanales para estimular regeneración profunda. Ideal para cicatrices, poros, textura y luminosidad."
+        "name": "FraxFace",
+        "short": "Rejuvenecimiento con tecnología fraccionada para mejorar textura, poros y firmeza.",
+        "long": "Tratamiento de rejuvenecimiento que combina tecnología fraccionada para estimular colágeno en profundidad. Mejora la firmeza, la textura, los poros y las líneas finas, logrando una piel más lisa, uniforme y luminosa con recuperación progresiva.",
+        "price": "$85.000",
+        "duration": "30 min",
+        "bullets": []
+      },
+      "fraxface-prp": {
+        "name": "FraxFace con Plasma Rico en Plaquetas",
+        "short": "Tecnología fraccionada potenciada con plasma rico en activos regenerativos para mejores resultados.",
+        "long": "Tratamiento de rejuvenecimiento que combina tecnología fraccionada con plasma rico en activos regenerativos. Estimula la producción de colágeno, mejora la textura, firmeza y luminosidad de la piel, potenciando los resultados y favoreciendo una recuperación más rápida.",
+        "price": "$160.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "hifu-facial": {
-        "name": "HIFU 25D 360 Max con Liposonix",
-        "short": "Lifting facial sin cirugía por ultrasonido focalizado.",
-        "long": "Ultrasonido de alta intensidad enfocado que trabaja distintas profundidades. Tensa, redefine contorno facial y trata papada. Equivale al lifting quirúrgico sin corte."
+        "name": "HIFU 25D Max con Liposonix",
+        "short": "Lifting facial no invasivo con ultrasonido focalizado para tensar y redefinir el contorno.",
+        "long": "Tratamiento no invasivo que utiliza ultrasonido focalizado para tensar la piel y reducir grasa localizada. Mejora la firmeza, redefine el contorno y genera un efecto lifting progresivo.",
+        "price": "Desde $60.000",
+        "duration": "45 min–1 hr 30 min",
+        "bullets": [
+          "Rostro completo con papada · $88.000 · 1 hr",
+          "Rostro completo con cuello y papada · $99.000 · 1 hr",
+          "Rostro completo, papada y escote · $110.000 · 1 hr 30 min",
+          "Solo papada · $60.000 · 45 min"
+        ]
       },
       "prp": {
-        "name": "Plasma rico en plaquetas",
-        "short": "Tu propia sangre como activo regenerador.",
-        "long": "Extracción y centrifugación de sangre para aplicar factores de crecimiento plaquetarios. Regenera, revitaliza y mejora calidad de piel."
+        "name": "Plasma Rico en Plaquetas",
+        "short": "Tratamiento regenerativo con factores de crecimiento propios para mejorar textura y firmeza.",
+        "long": "El plasma rico en plaquetas (PRP) es un tratamiento regenerativo que estimula colágeno y reparación celular con factores de crecimiento propios. Mejora la textura, luminosidad y firmeza de la piel. Máximo 4 sesiones al año.",
+        "price": "$90.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "meso-facial": {
         "name": "Mesoterapia facial",
-        "short": "Micro-infiltración de activos que devuelven luz y firmeza.",
-        "long": "Cóctel de vitaminas, ácido hialurónico y antioxidantes aplicado en microdosis intradérmicas. Hidrata, ilumina y mejora calidad de piel."
+        "short": "Microinyecciones de vitaminas y antioxidantes para hidratar, iluminar y estimular colágeno.",
+        "long": "Se aplican microinyecciones superficiales en la dermis con activos como vitaminas, minerales y antioxidantes. Hidratación profunda y mejora de calidad de piel, aumento de luminosidad, estimulación de colágeno y elastina, y atenuación de líneas finas. Procedimiento rápido, mínimamente invasivo.",
+        "price": "$40.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "meso-ojeras": {
-        "name": "Mesoterapia ojeras",
-        "short": "Tratamiento específico para el contorno ocular.",
-        "long": "Activos seleccionados para pigmentación y bolsas del contorno ocular. Aclara, descongestiona y refresca la mirada."
+        "name": "Mesoterapia en ojeras",
+        "short": "Microinyecciones con activos despigmentantes e hidratantes para la zona periocular.",
+        "long": "Microinyecciones superficiales en la zona periocular con activos despigmentantes, hidratantes y antioxidantes. Ayuda a aclarar la pigmentación de la ojera, mejora la hidratación y calidad de la piel, ilumina la mirada y suaviza líneas finas. Procedimiento rápido, mínimamente invasivo.",
+        "price": "$38.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "skinbooster": {
         "name": "Skinbooster",
-        "short": "Hidratación profunda de larga duración.",
-        "long": "Ácido hialurónico no reticulado que recupera hidratación, densidad y elasticidad. Resultados sostenidos por 6 meses."
+        "short": "Ácido hialurónico de baja densidad para hidratar en profundidad y mejorar la calidad de la piel.",
+        "long": "Microinyecciones de ácido hialurónico de baja densidad en la dermis para hidratar en profundidad y mejorar la calidad de la piel. Aporta hidratación profunda y sostenida, mejora de textura y elasticidad, luminosidad y suaviza líneas finas.",
+        "price": "$50.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "botox": {
-        "name": "Botox",
-        "short": "Suavizar líneas de expresión con naturalidad.",
-        "long": "Toxina botulínica aplicada con dosis individualizada — frente, entrecejo, patas de gallo. Resultados naturales que preservan expresividad."
+        "name": "Botox (toxina botulínica)",
+        "short": "Microinyecciones de toxina botulínica para relajar músculos y atenuar arrugas de expresión.",
+        "long": "Aplicación de microinyecciones de toxina botulínica en músculos específicos para relajar su contracción. Zonas: tercio superior (frente, entrecejo y patas de gallo), bruxismo (maceteros), punta de nariz, sonrisa gingival y comisuras labiales. Efecto visible a los 5–7 días, retoques a los 10–15 días. Duración: 4 a 5 meses según cada paciente.",
+        "price": "Consultar",
+        "duration": "",
+        "bullets": []
       },
       "relleno": {
         "name": "Relleno con ácido hialurónico",
-        "short": "Recuperar volumen sin cambiar tu identidad.",
-        "long": "Rellenos de ácido hialurónico para labios, pómulos, mentón, surcos y ojeras. Diseño facial personalizado con resultado natural."
+        "short": "Restaura volumen y define contornos para un resultado natural e inmediato.",
+        "long": "Aplicación de microinyecciones de ácido hialurónico para restaurar volumen, definir contornos y mejorar la armonía facial. Zonas: labios (volumen, definición e hidratación), pómulo (surco nasogeniano o línea de marioneta), mentón, mandíbula y ojeras. No realizamos rinomodelación. Duración del resultado: 6 a 8 meses según densidad del producto y cada paciente.",
+        "price": "Consultar",
+        "duration": "",
+        "bullets": []
       },
       "radiesse": {
         "name": "Bioestimuladores (Radiesse)",
-        "short": "Estimular tu colágeno desde adentro.",
-        "long": "Hidroxiapatita de calcio que genera producción endógena de colágeno. Mejora firmeza, densidad y calidad de piel progresivamente."
+        "short": "Bioestimulador de hidroxiapatita de calcio que activa la producción de colágeno y elastina.",
+        "long": "No es un relleno. Bioestimulador a base de hidroxiapatita de calcio que activa la producción de colágeno y elastina propios. Mejora firmeza y elasticidad, reestructura y define contornos con resultados naturales y duraderos. Efecto progresivo: visible a partir de los 2 meses, con duración aproximada de 1 año.",
+        "price": "Consultar",
+        "duration": "",
+        "bullets": []
       },
       "prp-capilar": {
-        "name": "Plasma rico en plaquetas capilar",
-        "short": "Regeneración del cuero cabelludo con factores propios.",
-        "long": "Extracción y centrifugación de sangre para aplicar factores de crecimiento plaquetarios en el cuero cabelludo. Estimula folículos, frena caída y fortalece el cabello."
+        "name": "Plasma Rico en Plaquetas capilar",
+        "short": "Plasma con factores de crecimiento para estimular folículos y mejorar la densidad capilar.",
+        "long": "Se obtiene plasma rico en plaquetas a partir de la sangre del paciente y se aplica en el cuero cabelludo. Los factores de crecimiento estimulan los folículos pilosos y mejoran la irrigación. Disminuye la caída del cabello, estimula el crecimiento, mejora grosor y densidad capilar, fortalece el folículo y aporta brillo y calidad al cabello.",
+        "price": "$90.000",
+        "duration": "45 min",
+        "bullets": []
       },
       "meso-capilar": {
         "name": "Mesoterapia capilar",
-        "short": "Micro-infiltración de activos para nutrir el folículo.",
-        "long": "Cóctel de vitaminas, minerales y aminoácidos aplicado en microdosis en el cuero cabelludo. Revitaliza el bulbo, mejora densidad y calidad capilar."
+        "short": "Microinyecciones nutritivas para activar el folículo y mejorar la salud del cuero cabelludo.",
+        "long": "Microinyecciones en el cuero cabelludo con activos como vitaminas, minerales, aminoácidos y factores estimulantes para nutrir y activar el folículo piloso. Disminuye la caída, estimula el crecimiento, mejora grosor y densidad, fortalece el cabello y mejora la calidad del cuero cabelludo.",
+        "price": "$35.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "criolipolisis": {
         "name": "Criolipólisis",
-        "short": "Reducción localizada de grasa por frío controlado.",
-        "long": "Aplicación de frío sostenido que cristaliza adipocitos en zonas específicas. El organismo los elimina de forma natural en las semanas siguientes. Ideal para abdomen, flancos, espalda y muslos."
+        "short": "Frío controlado para destruir células grasas y moldear el contorno, sin cirugía.",
+        "long": "Aplicación de frío controlado sobre la zona a tratar para provocar la destrucción de las células adipocitos. Reduce grasa localizada, moldea y mejora el contorno corporal. Procedimiento no invasivo con resultados progresivos y naturales. Puede generar enrojecimiento o sensibilidad transitoria.",
+        "price": "$45.000 por zona",
+        "duration": "40 min",
+        "bullets": []
       },
       "body-up": {
         "name": "Body Up",
-        "short": "Tonificación corporal con electro-estimulación.",
-        "long": "Estimulación muscular profunda que reafirma, activa circulación y mejora tono corporal. Complementa planes de reducción y remodelación."
+        "short": "Estimulación electromagnética muscular para tonificar y definir el contorno corporal.",
+        "long": "Tratamiento no invasivo que utiliza estimulación electromagnética muscular para generar contracciones intensas, trabajando el músculo en profundidad. Tonifica y fortalece la musculatura, mejora la firmeza corporal, ayuda a reducir grasa localizada y define el contorno.",
+        "price": "$25.000 por zona",
+        "duration": "30 min",
+        "bullets": []
       },
       "peptonas": {
         "name": "Peptonas",
-        "short": "Reducción y remodelación con péptidos de colágeno.",
-        "long": "Micro-infiltración de peptonas que rompen el tejido adiposo localizado y estimulan la remodelación corporal. Apto para brazos, abdomen, flancos y piernas."
+        "short": "Estimulación muscular profunda para reducir grasa y mejorar el contorno corporal.",
+        "long": "Tratamiento no invasivo que utiliza estimulación electromagnética muscular para generar contracciones intensas, trabajando el músculo en profundidad. Tonifica y fortalece la musculatura, mejora la firmeza corporal, ayuda a reducir grasa localizada y define el contorno.",
+        "price": "$45.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "meso-celulitis": {
         "name": "Mesoterapia celulitis",
-        "short": "Ataque directo al tejido afectado por celulitis.",
-        "long": "Micro-infiltración de activos específicos que mejoran circulación, drenan líquidos y atacan nódulos adiposos. Protocolo seriado para resultados visibles."
+        "short": "Microinyecciones lipolíticas y drenantes para mejorar el tejido afectado por celulitis.",
+        "long": "Microinyecciones superficiales en la zona a tratar con activos lipolíticos, drenantes y reafirmantes para mejorar el tejido. Mejora el aspecto de la celulitis, reduce la retención de líquidos, mejora la textura de la piel y aporta mayor firmeza.",
+        "price": "$40.000",
+        "duration": "35 min",
+        "bullets": []
       },
       "enzimas-lipoliticas": {
         "name": "Enzimas lipolíticas",
-        "short": "Disolución enzimática de grasa localizada.",
-        "long": "Aplicación de enzimas que descomponen las células adiposas en zonas específicas. Reducción medible en pocas sesiones."
+        "short": "Fosfatidilcolina para degradar grasa localizada con resultados progresivos.",
+        "long": "Microinyecciones en la zona a tratar con fosfatidilcolina para favorecer la degradación de grasa localizada. Reduce adiposidad localizada, mejora el contorno corporal, complementa otros tratamientos reductores. Resultados progresivos.",
+        "price": "$45.000 por zona",
+        "duration": "35 min",
+        "bullets": []
       },
       "hifu-corporal": {
-        "name": "HIFU 25D 360 Max con Liposonix corporal",
-        "short": "Tensado y remodelación corporal por ultrasonido.",
-        "long": "Ultrasonido focalizado aplicado a zonas corporales — abdomen, brazos, piernas, glúteos. Tensa, redefine contornos y reduce adiposidad localizada."
+        "name": "HIFU 25D 360 corporal",
+        "short": "Ultrasonido de alta intensidad para reducir grasa y mejorar la firmeza del cuerpo.",
+        "long": "Tecnología de ultrasonido focalizado de alta intensidad que actúa en profundidad para destruir células grasas y potenciar la reducción de adiposidad localizada. Reduce grasa, mejora firmeza, define contorno y estimula colágeno. Sin tiempo de recuperación.",
+        "price": "Desde $99.000",
+        "duration": "1–2 hrs",
+        "bullets": [
+          "1 zona · $99.000 · 1 hr",
+          "2 zonas · $176.500 · 1 hr 30 min",
+          "3 zonas · $232.500 · 1 hr 40 min",
+          "4 zonas · $265.500 · 2 hrs"
+        ]
       },
       "depilacion": {
         "name": "Depilación definitiva",
-        "short": "Láser de última generación, todas las zonas.",
-        "long": "Depilación láser progresiva que elimina el vello de forma definitiva. Protocolo personalizado según tipo de piel, fototipo y zona a tratar."
+        "short": "Láser Soprano Ice Titanium para reducción progresiva y duradera del vello.",
+        "long": "Tratamiento con tecnología láser Soprano Ice Titanium que actúa sobre el folículo piloso mediante calor, debilitando progresivamente el vello sin dañar la piel. Reducción progresiva y duradera, apto para distintos tipos de piel y zonas del cuerpo. Rápido, prácticamente indoloro, con sistema de enfriamiento para mayor confort.",
+        "price": "Consultar por zona",
+        "duration": "",
+        "bullets": []
       },
       "consulta-medica": {
         "name": "Consulta médico-estética",
-        "short": "Diagnóstico personalizado y plan de tratamiento.",
-        "long": "Entrevista en profundidad, evaluación cutánea y definición del plan estético integral. Punto de partida para todo tratamiento — sin compromiso."
+        "short": "Diagnóstico personalizado y plan de tratamiento estético integral.",
+        "long": "Consulta con médico especialista en estética para diagnóstico personalizado y definición del plan de tratamiento integral. Punto de partida para todo tratamiento.",
+        "price": "$45.000",
+        "duration": "",
+        "bullets": []
       },
       "nutricion": {
         "name": "Consulta de nutrición",
-        "short": "Acompañamiento nutricional que sostiene los resultados.",
-        "long": "Plan alimentario personalizado que complementa el recorrido estético. Hábitos sostenibles para que los resultados se mantengan en el tiempo."
+        "short": "Consulta nutricional y plan alimentario personalizado para sostener los resultados.",
+        "long": "Acompañamiento nutricional para complementar el recorrido estético. Plan alimentario personalizado con hábitos sostenibles para que los resultados se mantengan en el tiempo.",
+        "price": "$35.000",
+        "duration": "",
+        "bullets": [
+          "Consulta · $35.000",
+          "Plan alimentario · $20.000"
+        ]
       }
     }
   },

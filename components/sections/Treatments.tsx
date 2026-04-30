@@ -38,24 +38,26 @@ export function Treatments() {
         </div>
 
         {/* category tabs */}
-        <div className="mt-10 flex flex-wrap gap-x-1 border-b border-ink/15 lg:mt-12">
+        <div className="mt-10 flex flex-wrap justify-center gap-x-0 border-b border-ink/20 lg:mt-12 lg:justify-start">
           {categories.map((cat, i) => (
             <button
               key={cat}
               onClick={() => setActive(cat)}
               className={clsx(
-                'relative px-4 py-3 text-left transition-colors duration-300',
-                active === cat ? 'text-ink' : 'text-ink/40 hover:text-ink/70'
+                'relative px-5 py-3.5 transition-colors duration-300',
+                active === cat ? 'text-ink' : 'text-ink/50 hover:text-ink/80'
               )}
             >
-              <span className="num-chip mr-2 text-[0.65rem] text-ink/30">0{i + 1}</span>
-              <span className="font-sans text-xs uppercase tracking-[0.18em]">
+              <span className={clsx('num-chip mr-2 text-[0.65rem] transition-colors duration-300', active === cat ? 'text-ink/50' : 'text-ink/25')}>
+                0{i + 1}
+              </span>
+              <span className="font-sans text-[0.8rem] font-semibold uppercase tracking-[0.2em]">
                 {t(`groups.${cat}`)}
               </span>
               {active === cat && (
                 <motion.span
                   layoutId="tab-line"
-                  className="absolute inset-x-0 -bottom-px h-px bg-ink"
+                  className="absolute inset-x-0 -bottom-px h-[2px] bg-ink"
                   transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
                 />
               )}

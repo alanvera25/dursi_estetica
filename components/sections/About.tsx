@@ -58,6 +58,7 @@ export function About() {
               bio={t('estefaniaBio')}
               off={t('estefaniaOff')}
               imgSrc="/images/pepi.png"
+              objectPosition="top"
               flipped
             />
           </Reveal>
@@ -76,7 +77,8 @@ function ProfessionalCard({
   bio,
   off,
   imgSrc,
-  flipped
+  flipped,
+  objectPosition = 'center'
 }: {
   index: string;
   name: string;
@@ -87,6 +89,7 @@ function ProfessionalCard({
   off: string;
   imgSrc: string;
   flipped?: boolean;
+  objectPosition?: string;
 }) {
   return (
     <article className="group flex flex-col">
@@ -97,6 +100,7 @@ function ProfessionalCard({
           fill
           sizes="(max-width: 768px) 100vw, 40vw"
           className="object-cover transition-transform duration-[1.6s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.04]"
+          style={{ objectPosition }}
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/20 via-transparent to-transparent" />
         <div

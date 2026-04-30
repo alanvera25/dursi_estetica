@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Isotype } from '@/components/brand/Isotype';
+import { Logo } from '@/components/brand/Logo';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { GrainTexture } from '@/components/ui/GrainTexture';
 import { site } from '@/lib/site';
@@ -38,15 +38,11 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto grid min-h-[calc(100svh-10rem)] max-w-[1440px] grid-cols-12 gap-6 px-6 lg:gap-10 lg:px-10">
+      <div className="relative z-10 mx-auto grid min-h-[calc(100svh-10rem)] max-w-[1440px] grid-cols-12 gap-x-6 gap-y-0 px-6 lg:gap-10 lg:px-10">
         {/* column: eyebrow + isotype */}
-        <div className="col-span-12 flex flex-col justify-between lg:col-span-5">
-          <div className="relative flex items-center py-4 lg:py-0 lg:flex-1">
-            <Isotype
-              animate
-              className="w-full max-h-full"
-              strokeWidth={5}
-            />
+        <div className="col-span-12 flex flex-col items-center justify-between lg:col-span-5 lg:items-start">
+          <div className="flex w-full flex-col items-center pb-0 pt-6 lg:items-start lg:pb-0 lg:pt-0 lg:flex-1 lg:justify-center">
+            <Logo animate variant="hero" />
           </div>
 
           <motion.div
@@ -62,8 +58,8 @@ export function Hero() {
         </div>
 
         {/* column: display headline */}
-        <div className="col-span-12 flex flex-col justify-center lg:col-span-7">
-          <h1 className="font-display text-[clamp(2.4rem,16vw,5.5rem)] font-light leading-[0.95] tracking-[-0.02em] text-ink">
+        <div className="col-span-12 flex flex-col items-center justify-center mt-6 lg:mt-0 lg:col-span-6 lg:col-start-7 lg:items-start">
+          <h1 className="text-center font-display text-[clamp(2.4rem,16vw,5.5rem)] font-light leading-[0.95] tracking-[-0.02em] text-ink lg:text-left">
             <motion.span {...fade(0.4)} className="block">
               {t('titleA')}
             </motion.span>
@@ -73,18 +69,18 @@ export function Hero() {
             >
               {t('titleB')}
             </motion.span>
-            <motion.span {...fade(0.8)} className="mt-1 block pl-[6vw]">
+            <motion.span {...fade(0.8)} className="mt-1 block lg:pl-[6vw]">
               {t('titleC')}
             </motion.span>
             <motion.span
               {...fade(1.0)}
-              className="mt-1 block pl-[12vw] font-sans text-[0.72em] font-bold uppercase tracking-[0.02em] text-taupe"
+              className="mt-1 block font-sans text-[0.72em] font-bold uppercase tracking-[0.02em] text-taupe lg:pl-[12vw]"
             >
               {t('titleD')}.
             </motion.span>
           </h1>
 
-          <motion.div {...fade(1.4)} className="mt-10 flex flex-wrap items-center gap-3 lg:ml-auto">
+          <motion.div {...fade(1.4)} className="mt-10 flex flex-wrap justify-center items-center gap-3 lg:ml-auto lg:justify-start">
             <WhatsAppButton message={tContact('prefill')} variant="solid">
               {t('cta1')}
             </WhatsAppButton>

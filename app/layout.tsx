@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from 'next';
-import { DM_Sans, Playfair_Display } from 'next/font/google';
+import { Montserrat_Alternates, Playfair_Display } from 'next/font/google';
 import './globals.css';
 
-const dmSans = DM_Sans({
+const montserratAlt = Montserrat_Alternates({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-montserrat-alt',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${dmSans.variable} ${playfair.variable}`}>
+    <html lang="es" className={`${montserratAlt.variable} ${playfair.variable}`}>
       <body>{children}</body>
     </html>
   );
