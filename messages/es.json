@@ -270,10 +270,19 @@
     "heading": "Dos hermanas,",
     "headingAccent": "un mismo recorrido.",
     "intro": "D’Ursi Estética nació desde un lugar muy personal: la idea de abordar la belleza de forma real, consciente e integral. Somos Estefanía y Vanina — cada una con su camino, pero con la misma forma de entender el bienestar.",
-    "vaninaBio": "Médica especializada en medicina estética. Trabajo en el área desde los 18 años — primero en dermatocosmiatría y química cosmética, luego en distintos centros estéticos y dermatológicos. Profundicé mi formación con diplomaturas y un máster en armonización facial, siempre enfocada en resultados naturales y seguros.",
+    "vaninaBio": "Médica especializada en medicina estética.",
+    "vaninaBioDetail": "Trabajo en el área desde los 18 años — primero en dermatocosmiatría y química cosmética, luego en distintos centros estéticos y dermatológicos. Profundicé mi formación con diplomaturas y un máster en armonización facial, siempre enfocada en resultados naturales y seguros.",
     "vaninaOff": "Fuera del consultorio: pilates, libros, formación constante, viajes y mate.",
-    "estefaniaBio": "Licenciada en Nutrición. Durante años fui paciente y recorrí distintos centros — esa experiencia definió cómo quería trabajar: con empatía, criterio y una mirada más completa. Acompaño el proceso desde los hábitos y la alimentación para que los resultados estéticos se sostengan en el tiempo.",
+    "estefaniaBio": "Licenciada en Nutrición.",
+    "estefaniaBioDetail": "Durante años fui paciente y recorrí distintos centros — esa experiencia definió cómo quería trabajar: con empatía, criterio y una mirada más completa. Acompaño el proceso desde los hábitos y la alimentación para que los resultados estéticos se sostengan en el tiempo.",
     "estefaniaOff": "Fuera del consultorio: dibujo, pintura, amigos, familia, viajes y buena mesa."
+  },
+  "reviews": {
+    "eyebrow": "Lo que dicen",
+    "heading": "Reseñas de Google",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "cta": "Ver todas las reseñas"
   },
   "space": {
     "eyebrow": "El espacio",

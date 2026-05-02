@@ -22,7 +22,7 @@ export function Philosophy() {
 
         <div className="mt-10 grid grid-cols-12 gap-6 lg:gap-10">
           <Reveal delay={0.1} className="col-span-12 lg:col-span-8">
-            <h2 className="font-display text-[clamp(1.8rem,3.6vw,3.2rem)] font-light leading-[1.1] tracking-[-0.01em] text-ink">
+            <h2 className="font-display text-[clamp(1.8rem,3.6vw,3.2rem)] font-semibold leading-[1.1] tracking-[-0.01em] text-ink">
               {t('heading')}{' '}
               <span className="italic text-taupe">{t('italicAccent')}</span>{' '}
               {t('rest')}
@@ -41,7 +41,7 @@ export function Philosophy() {
             <motion.div key={p.title} variants={staggerItem} className="flex flex-col">
               <div className="flex items-baseline gap-4 border-t border-ink/20 pt-6">
                 <span className="num-chip text-xs text-ink/40">0{i + 1}</span>
-                <h3 className="font-display text-2xl font-light italic text-ink">
+                <h3 className="font-display text-2xl font-medium italic text-ink">
                   {p.title}
                 </h3>
               </div>

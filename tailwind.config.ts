@@ -11,15 +11,15 @@ const config: Config = {
       colors: {
         ink: '#2B4533',
         sage: '#CBD3C5',
-        bone: '#F4F4F4',
+        bone: '#EDE8E1',
         taupe: '#A08D84',
         'ink-80': 'rgba(43, 69, 51, 0.8)',
         'ink-60': 'rgba(43, 69, 51, 0.6)',
         'ink-40': 'rgba(43, 69, 51, 0.4)',
         'ink-20': 'rgba(43, 69, 51, 0.2)',
         'ink-10': 'rgba(43, 69, 51, 0.1)',
-        'bone-80': 'rgba(244, 244, 244, 0.8)',
-        'bone-60': 'rgba(244, 244, 244, 0.6)'
+        'bone-80': 'rgba(237, 232, 225, 0.8)',
+        'bone-60': 'rgba(237, 232, 225, 0.6)'
       },
       fontFamily: {
         sans: ['var(--font-montserrat-alt)', 'system-ui', 'sans-serif'],

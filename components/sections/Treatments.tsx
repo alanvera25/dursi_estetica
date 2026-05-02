@@ -27,7 +27,7 @@ export function Treatments() {
             <p className="smallcaps text-ink/60">{t('eyebrow')} · 24</p>
           </Reveal>
           <Reveal delay={0.1} className="col-span-12 lg:col-span-8">
-            <h2 className="font-display text-[clamp(1.9rem,4vw,3.6rem)] font-light leading-[1.05] tracking-[-0.01em] text-ink">
+            <h2 className="font-display text-[clamp(1.9rem,4vw,3.6rem)] font-semibold leading-[1.05] tracking-[-0.01em] text-ink">
               {t('heading')}{' '}
               <span className="italic">{t('headingAccent')}</span>
             </h2>

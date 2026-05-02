@@ -17,7 +17,7 @@ export function About() {
             <p className="smallcaps text-ink/50">{t('eyebrow')}</p>
           </Reveal>
           <Reveal delay={0.1}>
-            <h2 className="mt-6 font-display text-[clamp(1.9rem,4vw,3.6rem)] font-light leading-[1.05] tracking-[-0.01em] text-ink">
+            <h2 className="mt-6 font-display text-[clamp(1.9rem,4vw,3.6rem)] font-semibold leading-[1.05] tracking-[-0.01em] text-ink">
               {t('heading')}{' '}
               <br />
               <span className="italic">{t('headingAccent')}</span>
@@ -39,6 +39,7 @@ export function About() {
               license={vanina.license}
               specialty={vanina.specialty}
               bio={t('vaninaBio')}
+              bioDetail={t('vaninaBioDetail')}
               off={t('vaninaOff')}
               imgSrc="/images/vani.jpeg"
             />
@@ -56,6 +57,7 @@ export function About() {
               license={estefania.license}
               specialty={estefania.specialty}
               bio={t('estefaniaBio')}
+              bioDetail={t('estefaniaBioDetail')}
               off={t('estefaniaOff')}
               imgSrc="/images/pepi.png"
               objectPosition="top"
@@ -75,6 +77,7 @@ function ProfessionalCard({
   license,
   specialty,
   bio,
+  bioDetail,
   off,
   imgSrc,
   flipped,
@@ -86,6 +89,7 @@ function ProfessionalCard({
   license: string;
   specialty: string;
   bio: string;
+  bioDetail: string;
   off: string;
   imgSrc: string;
   flipped?: boolean;
@@ -113,7 +117,7 @@ function ProfessionalCard({
         </div>
       </div>
       <div className="mt-6 flex flex-col">
-        <h3 className="font-display text-2xl font-light leading-tight text-ink md:text-3xl">
+        <h3 className="font-display text-2xl font-semibold leading-tight text-ink md:text-3xl">
           {name}
         </h3>
         <div className="mt-2 flex flex-wrap items-center gap-3">
@@ -123,7 +127,10 @@ function ProfessionalCard({
             {license}
           </span>
         </div>
-        <p className="mt-6 text-[0.92rem] leading-relaxed text-ink/75">{bio}</p>
+        <p className="mt-6 text-[0.92rem] leading-relaxed text-ink/90">
+          <strong className="font-semibold">{bio}</strong>
+        </p>
+        <p className="mt-3 text-[0.92rem] leading-relaxed text-ink/70">{bioDetail}</p>
         <p className="mt-4 border-t border-ink/15 pt-4 text-xs italic text-ink/55">
           {off}
         </p>
