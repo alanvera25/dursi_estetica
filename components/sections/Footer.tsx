@@ -59,7 +59,17 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-sage"
                 >
-                  {site.handle}
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href={site.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-sage"
+                >
+                  TikTok
                 </a>
               </li>
               <li>

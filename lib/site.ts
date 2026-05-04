@@ -3,6 +3,7 @@ export const site = {
   shortName: 'Dursi',
   handle: '@dursi.estetica',
   instagram: 'https://www.instagram.com/dursi.estetica/',
+  tiktok: 'https://www.tiktok.com/@dursi.estetica?_r=1&_t=ZS-965XRp7lArn',
   email: 've.centroestetica@gmail.com',
   phone: '+54 9 11 6602 1077',
   phoneRaw: '5491166021077',

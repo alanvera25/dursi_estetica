@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { MapPin, Clock, MessageCircle, Instagram } from 'lucide-react';
+import { TikTokIcon } from '@/components/ui/TikTokIcon';
 import { Reveal } from '@/components/ui/Reveal';
 import { site } from '@/lib/site';
 
@@ -27,8 +28,13 @@ export function Location() {
     },
     {
       icon: <Instagram size={18} strokeWidth={1.5} />,
-      label: site.handle,
+      label: 'Instagram',
       href: site.instagram
+    },
+    {
+      icon: <TikTokIcon size={18} />,
+      label: 'TikTok',
+      href: site.tiktok
     }
   ];
 

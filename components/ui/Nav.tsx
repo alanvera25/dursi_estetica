@@ -8,6 +8,7 @@ import { LogoMark } from '@/components/brand/LogoMark';
 import { LangSwitcher } from './LangSwitcher';
 import { TreatmentsMenu } from './TreatmentsMenu';
 import { Instagram, MapPin, MessageCircle } from 'lucide-react';
+import { TikTokIcon } from './TikTokIcon';
 import { site } from '@/lib/site';
 
 const sections = ['treatments', 'about', 'contact'] as const;
@@ -92,6 +93,9 @@ export function Nav() {
               <a href={site.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-ink/55 transition-colors hover:text-ink">
                 <Instagram size={17} strokeWidth={1.5} />
               </a>
+              <a href={site.tiktok} target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="text-ink/55 transition-colors hover:text-ink">
+                <TikTokIcon size={17} />
+              </a>
               <a href={site.address.mapsLink} target="_blank" rel="noopener noreferrer" aria-label="Google Maps" className="text-ink/55 transition-colors hover:text-ink">
                 <MapPin size={17} strokeWidth={1.5} />
               </a>
@@ -163,6 +167,9 @@ export function Nav() {
               <LangSwitcher />
               <a href={site.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-ink/55 transition-colors hover:text-ink">
                 <Instagram size={18} strokeWidth={1.5} />
+              </a>
+              <a href={site.tiktok} target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="text-ink/55 transition-colors hover:text-ink">
+                <TikTokIcon size={18} />
               </a>
               <a href={site.address.mapsLink} target="_blank" rel="noopener noreferrer" aria-label="Google Maps" className="text-ink/55 transition-colors hover:text-ink">
                 <MapPin size={18} strokeWidth={1.5} />

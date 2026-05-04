@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Instagram, Mail } from 'lucide-react';
+import { TikTokIcon } from '@/components/ui/TikTokIcon';
 import { Reveal } from '@/components/ui/Reveal';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { site } from '@/lib/site';
@@ -36,7 +37,19 @@ export function Contact() {
               <span className="flex h-9 w-9 items-center justify-center rounded-full border border-bone/30 transition-colors group-hover:border-bone">
                 <Instagram size={16} strokeWidth={1.5} />
               </span>
-              <span className="text-sm">{site.handle}</span>
+              <span className="text-sm">Instagram</span>
+            </a>
+
+            <a
+              href={site.tiktok}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-3 text-bone/75 transition-colors hover:text-bone"
+            >
+              <span className="flex h-9 w-9 items-center justify-center rounded-full border border-bone/30 transition-colors group-hover:border-bone">
+                <TikTokIcon size={16} />
+              </span>
+              <span className="text-sm">TikTok</span>
             </a>
 
             <a
